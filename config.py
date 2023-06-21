@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 # Get a bot token from botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5847424749:AAHV9M0JWs07gS1qYWciTRCygatpyw_P5eg")
 
 # Get from my.telegram.org (or @UseTGXBot)
 APP_ID = int(os.environ.get("APP_ID", "9738903"))
@@ -23,7 +23,7 @@ DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://tgfilestore:0gYdDhh
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "tgfilestore")
 
 # ID of users that can use the bot commands
-AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5288244700").split())
 
 # Should bot search for document files in channels
 DOC_SEARCH = os.environ.get("DOC_SEARCH", "yes").lower()
